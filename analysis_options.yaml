@@ -1,0 +1,12 @@
+# https://www.dartlang.org/guides/language/analysis-options
+# bruno - > hack para nao reclamar de "class can't be used as a mixin because it extends a class other than Object.
+
+analyzer:
+  errors:
+    mixin_inherits_from_not_object: ignore
+#  enable-experiment:
+#    - non-nullable
+
+linter:
+  rules:
+    constant_identifier_names: false
